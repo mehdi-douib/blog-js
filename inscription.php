@@ -13,8 +13,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link href="src/fontello/css/fontello.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="src/css/style.css"/> 
-    <link href="src/css/styles.css" rel="stylesheet">  
+    <link rel="stylesheet" href="../src/css/style.css"/>
+    <link href="src/css/styles.css" rel="stylesheet">
     <title>Inscription</title>
 </head>
 <body>
@@ -25,26 +25,26 @@
 
         <?php if(isset($msg_error)) { echo '<p class="alert alert-danger w-75 p-3 m-auto text-center">'.$msg_error.'</p>' ; }?></p>
         
-        <section class="container mb-5 mt-5 d-flex justify-content-center">            
+        <section class="container mb-5 d-flex justify-content-center">
             <form action="" method="POST">
                 <section class="form-group">
                     <label for="login" class="d-flex justify-content-center">Login :</label>
-                    <input type="text" name="login" class="form-control text-center" required>
+                    <input type="text" name="login" placeholder="Entre ton login" class="form-control text-center" required>
                 </section>
 
                <section class="form-group">
                     <label for="password" class="d-flex justify-content-center">Mot de passe :</label>
-                    <input type="password" name="password" class="form-control text-center" required>
+                    <input type="password" name="password" placeholder="Entre ton mots de passe" class="form-control text-center" required>
                </section>
 
                 <section class="form-group">
                     <label for="conf_password" class="d-flex justify-content-center">Confirmer mot de passe :</label>
-                    <input type="password" name="conf_password" class="form-control text-center" required>
+                    <input type="password" name="conf_password" placeholder="Retape ton mots de passe" class="form-control text-center" required>
                 </section>
 
                 <section class="form-group">
-                    <label for="email" class="d-flex justify-content-center">email :</label>
-                    <input type="email" name="email" class="form-control text-center" required>
+                    <label for="email" class="d-flex justify-content-center">Email :</label>
+                    <input type="email" name="email" placeholder="Entre ton email" class="form-control text-center" required>
                 </section>
 
                 <section class="d-flex justify-content-center">

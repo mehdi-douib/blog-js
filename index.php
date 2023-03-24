@@ -28,8 +28,10 @@
     <main>
             <?php if (isset($_SESSION['erreur'])) { echo $_SESSION['erreur']; } ?>
             <h1 class="titre_h1_index">Prog<span class="titre">'Blog</span></h1>
-            <h3 >Le blog sur la programmation</h3>
-            <div class="div_index">
+        <div id="base">
+            <div id="texte"></div>
+        </div>
+            <div class="container" id="index-container">
                 <p>Vous êtes débutant en Programmation, ou en informatique de façon générale ? Vous souhaitez apprendre la programmation ? Ce blog  est fait pour vous.</p>
                 <p>Nous allons voir ensemble les concepts de programmation et les systèmes se cachant derrière les applications et sites web que vous utilisez tout les jours.</p>
                 <p>Si vous bloquez sur un concept de programmation, vous trouverez probablement une réponse sur ce site. Nous publions des articles très régulièrement. Ceux-ci ont pour objectif de répondre à une question ou de résoudre un problème que vous pouvez rencontrer.</p>
@@ -51,8 +53,9 @@
                 <a href="articles.php" class="btn btn-primary">Voir plus</a>
             </section>            
     </main>
-
-    <?php include 'php/include/footer.php' ?>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="src/js/text-anim.js"></script>
+    <?php include 'php/include/footer.php'?>
 </body>
 </html>
 <?php unset($_SESSION['erreur']) ; ?>
