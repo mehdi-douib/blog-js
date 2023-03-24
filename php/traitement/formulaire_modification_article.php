@@ -7,7 +7,7 @@ session_start();
 
         $id_article = $_GET['id'];
 
-        var_dump($_FILES['image']);
+        #var_dump($_FILES['image']);
         echo "1";
         $titre = $_POST['titre'];
         $article = $_POST['article'];
