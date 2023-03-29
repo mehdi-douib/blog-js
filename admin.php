@@ -73,7 +73,7 @@ else {
     <main class="main_admin">
         <h1 class="pt-5">Espace administrateur</h1>
 
-        <img class="img_admin" src="src/image/admin.gif" alt="">
+        <img class="img_admin" src=".src/image/admin.png" alt="">
 
         <section>
             <h2 class="titre_admin">Gestion utilisateurs</h2>

@@ -31,7 +31,7 @@
         <div id="base">
             <div id="texte"></div>
         </div>
-            <div class="container" id="index-container">
+            <div class="container" >
                 <p>Vous êtes débutant en Programmation, ou en informatique de façon générale ? Vous souhaitez apprendre la programmation ? Ce blog  est fait pour vous.</p>
                 <p>Nous allons voir ensemble les concepts de programmation et les systèmes se cachant derrière les applications et sites web que vous utilisez tout les jours.</p>
                 <p>Si vous bloquez sur un concept de programmation, vous trouverez probablement une réponse sur ce site. Nous publions des articles très régulièrement. Ceux-ci ont pour objectif de répondre à une question ou de résoudre un problème que vous pouvez rencontrer.</p>
