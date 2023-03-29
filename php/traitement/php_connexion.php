@@ -3,8 +3,8 @@
 
     session_start();       
 
-    $user = new user('blog');
-    #$user = new user('mehdi-douib_blog');
+    #$user = new user('blog');
+    $user = new user('mehdi-douib_blog');
 
     if(isset($_SESSION["user"]))
         {

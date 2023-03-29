@@ -13,10 +13,10 @@
                 {
                     try
                         {
-                            $bdd = new PDO("mysql:host=localhost;dbname=$dbname", 'root', '', [PDO::ATTR_DEFAULT_FETCH_MODE=>PDO::FETCH_OBJ, PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);                   
-                            $this->bdd = $bdd;
-                            #$bdd = new PDO("mysql:host=localhost;dbname=$dbname", 'med', 'sL2$0a06s', [PDO::ATTR_DEFAULT_FETCH_MODE=>PDO::FETCH_OBJ, PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);                   
+                            #$bdd = new PDO("mysql:host=localhost;dbname=$dbname", 'root', '', [PDO::ATTR_DEFAULT_FETCH_MODE=>PDO::FETCH_OBJ, PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);                   
                             #$this->bdd = $bdd;
+                            $bdd = new PDO("mysql:host=localhost;dbname=$dbname", 'med', 'sL2$0a06s', [PDO::ATTR_DEFAULT_FETCH_MODE=>PDO::FETCH_OBJ, PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);                   
+                            $this->bdd = $bdd;
                             
                         }
                         

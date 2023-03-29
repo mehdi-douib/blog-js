@@ -1,8 +1,8 @@
 <?php
 function connexionPDO() {
     try {
-        $bd = new PDO('mysql:host=localhost;dbname=blog;charset=utf8','root', '');
-        #$bd = new PDO('mysql:host=localhost;dbname=mehdi-douib_blog;charset=utf8','med', 'sL2$0a06s');
+        #$bd = new PDO('mysql:host=localhost;dbname=blog;charset=utf8','root', '');
+        $bd = new PDO('mysql:host=localhost;dbname=mehdi-douib_blog;charset=utf8','med', 'sL2$0a06s');
     } catch (PDOException $e) {
         echo 'Échec de la connexion : ' . $e->getMessage();
         exit;
